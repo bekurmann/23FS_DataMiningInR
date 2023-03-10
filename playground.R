@@ -46,3 +46,5 @@ here::i_am("playground.R")
 load(here::here("data", "s3-subset.Rdata"))
 catch_me <- dat[["deep_list"]][4][1]
 
+# add a quick plot
+qplot(mpg$hwy)
